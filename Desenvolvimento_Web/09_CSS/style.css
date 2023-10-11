@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    font-family: "Young Serif";
+}
+
+.desafio01{
+    font-family: "Young Serif";
+    color: rgb(128, 78, 18);
+    background-color: orange;
+}
+
+#lista01 {
+    color: rgb(104, 32, 172);
+}
+#lista02{
+    color: rgb(19, 143, 25);
+    background-color: rgba(95, 158, 160,0.6);
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TXlydGxlJTIwQmVhY2glMkMlMjBVbml0ZWQlMjBTdGF0ZXN8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li{
+    color: #1a1ae4;
+}
+
