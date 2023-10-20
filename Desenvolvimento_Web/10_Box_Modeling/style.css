@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+
+.menu__item a {
+    color: white;
+    text-decoration: none;
+}
+.menu__item  {
+    display: inline-block;
+    position: relative;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    background-color: lightslategray;
+}
+
+.menu__item--submenu:hover .submenu{
+    display: block;
+}
