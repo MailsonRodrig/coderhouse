@@ -1,5 +1,83 @@
-#grad {
-    height: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+
+.container {
+    display: flex;
+    border: solid red 1px;
+    height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to right, red, yellow);
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(33, 121, 172);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 68vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 40%;
+    background-color: rgb(122, 122, 122);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(177, 177, 177);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(33, 121, 172);
+}
+
+.dividir {
+    display: flex;
+    height: 70vh;
+    width: 100%;
 }
