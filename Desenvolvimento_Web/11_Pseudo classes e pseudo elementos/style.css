@@ -1,0 +1,59 @@
+h1{
+    font-size: 2em;
+}
+
+#brasil:hover{
+    background-color: green;
+    color: yellow;
+}
+
+#franca:hover {
+    background-color: rgb(7, 6, 105);
+    color: rgb(226, 0, 0);
+}
+#alemanha:hover {
+    background-color: rgb(248, 3, 3);
+    color: rgb(255, 230, 0);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(25, 0, 255);
+}
+
+li:first-child{
+    color: green;
+}
+li:nth-child(2){
+    color: rgb(38, 0, 255);
+}
+li:nth-child(3){
+    color: rgb(38, 0, 255);
+}
+input[type="radio"]{
+    accent-color: #ff00dd00;
+}
+
+input[type="email"]:valid{
+    background-color: greenyellow;
+}
+input[type="email"]:checked{
+    background-color: rgb(255, 55, 205);
+}
+
+#sim:checked + label{
+    color: green;
+}
+#sim{
+    accent-color: green;
+}
+#nao:checked + label{
+    color: rgb(231, 15, 0);
+}
+#nao{
+    accent-color: rgb(231, 15, 0);
+}
