@@ -11,7 +11,7 @@ function calcularParcelas() {
      for (let i = 0; i < qtdParcelas; i++) {
         console.log((
            ` Faltam ${
-               i +1
+              qtdParcelas - i
             }/${qtdParcelas} parcelas de R$ ${calcularParcelas.toFixed(2)} `
             ));
          }
@@ -22,7 +22,7 @@ function calcularParcelas() {
        for (let i = 0; i < qtdParcelas; i++) {
          console.log((
             ` Faltam ${
-               i + 1
+               qtdParcelas - i
              }/${qtdParcelas} parcelas de R$ ${parcelasSemEntrada.toFixed(2)} `
              ));
           }
